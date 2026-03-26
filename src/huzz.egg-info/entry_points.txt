@@ -1,0 +1,2 @@
+[console_scripts]
+huzz = huzz.cli:main

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "huzz"
+version = "0.3.2"
+description = "A high-performance utility for managing and evaluating huzz."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Huzz Maintainer", email = "maintainer@huzz.io" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+aws = ["boto3>=1.26.0"]
+
+[project.urls]
+"Homepage" = "https://github.com/huzz/huzz"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+huzz = "huzz.cli:main"
