@@ -9,7 +9,7 @@ description = "A high-performance utility for managing and evaluating huzz."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name = "Huzz Maintainer", email = "maintainer@huzz.io" }
+    { name = "@aharshit123456", email = "aharshit123456@gmail.com" }
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

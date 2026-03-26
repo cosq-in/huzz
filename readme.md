@@ -59,9 +59,9 @@ run_tui(registry)
 ## 💅 cli toolkit
 type `huzz` in your terminal to see the live dashboard. supports windows, linux, and macos.
 
-## 🙏 credits & inspiration
-inspired by **cj.mcc_**. 
-- **creator**: [cj.mcc_ (@cj.mcc_)](https://www.instagram.com/cj.mcc_/)
+## 🙏 Credits & Inspiration
+- **Creator**: [aharshit123456](https://github.com/aharshit123456)
+- **Inspiration**: Stylistic direction and lingo inspired by [cj.mcc_ (@cj.mcc_)](https://www.instagram.com/cj.mcc_/).
 
 ---
 *stay locked in, keep the motion going.*
